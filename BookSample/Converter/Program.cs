@@ -2,7 +2,7 @@
 
     public class UnitConverter //Обьявление класса
 {
-    int ratio;                                                  //Поле
+    int ratio;                                                  //Поле экземпляра
     public UnitConverter(int unitRatio) { ratio = unitRatio; }  //Конструктор
     public int Convert (int unit) { return unit * ratio; }      //Обьявление метода с входящим значением unit, умножение значения unit на передаваемое в поле ratio значение, возвращение результата
 }                              //Конец класса
